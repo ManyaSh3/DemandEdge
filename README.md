@@ -34,12 +34,9 @@ This Jupyter notebook is the main implementation file for the project. It includ
 
 **SMAPE (Symmetric Mean Absolute Percentage Error):**
 
-\[
-SMAPE = \frac{100\%}{n} \sum_{t=1}^{n} \frac{|F_t - A_t|}{(|A_t| + |F_t|)/2}
-\]
+![SMAPE Formula](https://latex.codecogs.com/png.latex?SMAPE%20%3D%20%5Cfrac%7B100%25%7D%7Bn%7D%20%5Csum_%7Bt%3D1%7D%5E%7Bn%7D%20%5Cfrac%7B%7CF_t%20-%20A_t%7C%7D%7B(%7CA_t%7C%20%2B%20%7CF_t%7C)%2F2%7D)
 
 Where:
-
 - \( F_t \): Forecasted value  
 - \( A_t \): Actual value  
 
