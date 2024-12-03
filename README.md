@@ -33,11 +33,18 @@ This Jupyter notebook is the main implementation file for the project. It includ
 ## Evaluation Metric
 
 **SMAPE (Symmetric Mean Absolute Percentage Error):**
-\[ \text{SMAPE} = \frac{100\%}{n} \sum_{t=1}^{n} \frac{|F_t - A_t|}{(|A_t| + |F_t|)/2} \]
 
-Where \(F_t\) is the forecasted value, and \(A_t\) is the actual value.
+\[
+SMAPE = \frac{100\%}{n} \sum_{t=1}^{n} \frac{|F_t - A_t|}{(|A_t| + |F_t|)/2}
+\]
 
-- Special Case: SMAPE is defined as 0 when both actual and predicted values are 0.
+Where:
+
+- \( F_t \): Forecasted value  
+- \( A_t \): Actual value  
+
+**Special Case**: SMAPE is defined as 0 when both actual and predicted values are 0.
+
 
 ## Acknowledgements
 - Forecasting Models: SARIMA, ARIMA, XGBoost
